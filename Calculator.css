@@ -1,0 +1,43 @@
+.main-div{
+    width: 350px;
+    height: 475px;
+    background:grey;
+    margin-left: 200px;
+    margin-top: 100px;   
+   }
+   #inp{
+       width: 260px;
+       height: 40px;
+       margin: 30px 40px;
+       pointer-events: none;
+   }
+   .button1,
+   .button2,
+   .button3,
+   .button4{
+       padding: 20px;
+       margin-left: 20px;
+       background-color: burlywood;
+   }
+   .b1{
+    margin-left: 170px;
+    padding: 20px 14px ;
+
+   }
+   
+   .row{
+       padding: 5px 18px;
+   }
+   #button4,
+   #button3{
+       padding: 20px 22px;
+       margin-left: 20px;
+       background-color: burlywood;
+   }
+   #button2{
+       padding: 20px 21px;
+       margin-left: 20px;
+       background-color: burlywood;
+   }
+   
+   
