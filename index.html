@@ -8,38 +8,40 @@
     <link rel="stylesheet" href="Calculator.css">
 </head>
 <body>
-    <div class="container w-50 bg-dark-subtle p-5 mt-5 rounded-5 shadow-lg">
-        <div class="mb-5">
-            <input type="text" class="form-control" id="inp" readonly>
-        </div>
-        <div class="">
-            <div class="d-flex justify-content-between row mb-3">
-                <div class="col-3"><button onclick="clean()" class="clear btn btn-dark p-3 shadow">C</button></div>
-                <div class="col-3"><button onclick="backSpace()" class="del btn btn-danger p-3 shadow">Del</button></div>
+    <div class="container d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
+        <div class="container bg-dark-subtle p-5 rounded-5 shadow-lg" style="max-width: 400px;">
+            <div class="mb-5">
+                <input type="text" class="form-control" id="inp" readonly>
             </div>
-            <div class="row mb-3">
-                <div class="col-3"><button onclick="para(7)" class="num btn btn-dark p-3 shadow">7</button></div>
-                <div class="col-3"><button onclick="para(8)" class="num btn btn-dark p-3 shadow">8</button></div>
-                <div class="col-3"><button onclick="para(9)" class="num btn btn-dark p-3 shadow">9</button></div>
-                <div class="col-3"><button onclick="para('+')" class="plu btn btn-dark p-3 shadow">+</button></div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-3"><button onclick="para(4)" class="num btn btn-dark p-3 shadow">4</button></div>
-                <div class="col-3"><button onclick="para(5)" class="num btn btn-dark p-3 shadow">5</button></div>
-                <div class="col-3"><button onclick="para(6)" class="num btn btn-dark p-3 shadow">6</button></div>
-                <div class="col-3"><button onclick="para('*')" class="mult btn btn-dark p-3 shadow">x</button></div>
-            </div>
-            <div class="row mb-3">
-                <div class="col-3"><button onclick="para(1)" class="num btn btn-dark p-3 shadow">1</button></div>
-                <div class="col-3"><button onclick="para(2)" class="num btn btn-dark p-3 shadow">2</button></div>
-                <div class="col-3"><button onclick="para(3)" class="num btn btn-dark p-3 shadow">3</button></div>
-                <div class="col-3"><button onclick="para('-')" class="min btn btn-dark p-3 shadow">-</button></div>
-            </div>
-            <div class="row">
-                <div class="col-3"><button onclick="para('.')" class="dot btn btn-dark p-3 shadow">.</button></div>
-                <div class="col-3"><button onclick="para(0)" class="num btn btn-dark p-3 shadow">0</button></div>
-                <div class="col-3"><button onclick="result()" class="equal btn btn-success p-3 shadow">=</button></div>
-                <div class="col-3"><button onclick="para('/')" class="divi btn btn-dark p-3 shadow">/</button></div>
+            <div class="">
+                <div class="d-flex justify-content-between row mb-3">
+                    <div class="col-3"><button onclick="clean()" class="clear btn btn-dark p-3 shadow">C</button></div>
+                    <div class="col-3"><button onclick="backSpace()" class="del btn btn-danger p-3 shadow">Del</button></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3"><button onclick="para(7)" class="num btn btn-dark p-3 shadow">7</button></div>
+                    <div class="col-3"><button onclick="para(8)" class="num btn btn-dark p-3 shadow">8</button></div>
+                    <div class="col-3"><button onclick="para(9)" class="num btn btn-dark p-3 shadow">9</button></div>
+                    <div class="col-3"><button onclick="para('+')" class="plu btn btn-dark p-3 shadow">+</button></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3"><button onclick="para(4)" class="num btn btn-dark p-3 shadow">4</button></div>
+                    <div class="col-3"><button onclick="para(5)" class="num btn btn-dark p-3 shadow">5</button></div>
+                    <div class="col-3"><button onclick="para(6)" class="num btn btn-dark p-3 shadow">6</button></div>
+                    <div class="col-3"><button onclick="para('*')" class="mult btn btn-dark p-3 shadow">x</button></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-3"><button onclick="para(1)" class="num btn btn-dark p-3 shadow">1</button></div>
+                    <div class="col-3"><button onclick="para(2)" class="num btn btn-dark p-3 shadow">2</button></div>
+                    <div class="col-3"><button onclick="para(3)" class="num btn btn-dark p-3 shadow">3</button></div>
+                    <div class="col-3"><button onclick="para('-')" class="min btn btn-dark p-3 shadow">-</button></div>
+                </div>
+                <div class="row">
+                    <div class="col-3"><button onclick="para('.')" class="dot btn btn-dark p-3 shadow">.</button></div>
+                    <div class="col-3"><button onclick="para(0)" class="num btn btn-dark p-3 shadow">0</button></div>
+                    <div class="col-3"><button onclick="result()" class="equal btn btn-success p-3 shadow">=</button></div>
+                    <div class="col-3"><button onclick="para('/')" class="divi btn btn-dark p-3 shadow">/</button></div>
+                </div>
             </div>
         </div>
     </div>

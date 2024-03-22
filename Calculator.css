@@ -10,6 +10,7 @@
     width: 100%;
 }
 #inp{
-    height: 60px;
-    
+    height: 70px;
+    font-size: 28px;
+    text-align: right;
 }
